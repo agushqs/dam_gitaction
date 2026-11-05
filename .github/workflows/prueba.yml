@@ -1,0 +1,14 @@
+name: PRUEBA ACTION
+
+on:
+  push:
+  
+jobs:
+  mostrar_mensaje:
+    runs-on: ubuntu-latest  
+    steps:
+      - name: Muestra mensaje
+        run:
+          echo "Hola"
+  segundo_step:
+  tercer_step:
