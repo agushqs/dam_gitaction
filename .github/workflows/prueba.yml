@@ -13,7 +13,7 @@ jobs:
       
       - name: Muestra mensaje
         
-        run:
+        run: |
           echo "Hola"
           date
           java -version
